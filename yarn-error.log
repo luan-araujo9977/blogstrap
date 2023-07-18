@@ -1,0 +1,36 @@
+Arguments: 
+  /home/luan/.nvm/versions/node/v18.15.0/bin/node /usr/share/yarn/bin/yarn.js add rails
+
+PATH: 
+  /home/luan/.rvm/gems/ruby-3.2.1/bin:/home/luan/.rvm/gems/ruby-3.2.1@global/bin:/home/luan/.rvm/rubies/ruby-3.2.1/bin:/home/luan/.rvm/bin:/home/luan/.nvm/versions/node/v18.15.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/luan/.fzf/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.15.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/rails/-/rails-4.1.0-beta.tgz: Request failed "404 Not Found"
+      at ResponseError.ExtendableBuiltin (/usr/share/yarn/lib/cli.js:696:66)
+      at new ResponseError (/usr/share/yarn/lib/cli.js:802:124)
+      at Request.<anonymous> (/usr/share/yarn/lib/cli.js:66215:16)
+      at Request.emit (node:events:513:28)
+      at module.exports.Request.onRequestResponse (/usr/share/yarn/lib/cli.js:141767:10)
+      at ClientRequest.emit (node:events:513:28)
+      at HTTPParser.parserOnIncomingClient (node:_http_client:701:27)
+      at HTTPParser.parserOnHeadersComplete (node:_http_common:119:17)
+      at TLSSocket.socketOnData (node:_http_client:542:22)
+      at TLSSocket.emit (node:events:513:28)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
